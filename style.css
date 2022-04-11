@@ -12,6 +12,15 @@ footer{grid-area: footer;}
 {
     background-color: #5375E2FF;
 }
+#logo
+{
+    float: right;
+    padding: 10px;
+}
+h1
+{
+    padding-top: 10px;
+}
 .h1, .content
 {
     border-style: solid;
@@ -221,8 +230,6 @@ fieldset
     margin-left: 20px;
     font-size: 10px;
 }
-
-
 footer {
 
     width: 100%;
@@ -251,7 +258,16 @@ footer a
         text-align: justify;
         font-size: 35px;
     }
-
+    .h1
+    {
+        padding-top: 200px;
+    }
+    #logo
+    {
+        padding-top: 10px;
+        width: 70% !important;
+        height: auto;
+    }
     .grid-container 
     {
         display: grid;
