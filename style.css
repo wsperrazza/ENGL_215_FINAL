@@ -199,7 +199,7 @@ fieldset
 
 .drop:hover .ddbtn {
     /*border-radius: 10px 10px 0 0;*/
-    background-color: silver;
+    background-color: silver !important ; 
 }
 
 
@@ -211,6 +211,10 @@ fieldset
 #active a
 {
     color: white;
+}
+#sideActive
+{
+    background-color: gray;
 }
 /*GLOBAL rules ENDS here ^^*/
 
