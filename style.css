@@ -31,7 +31,7 @@ body
     background-color: #E7E5E5FF;
 }
 /*Global basic style*/
-h2, h3
+h2, h3, h4
 {
     text-align: left;
     margin-left: 20px;
@@ -219,16 +219,16 @@ fieldset
 /*General styling rules h2, imagge, p, ect for home page*/
 /*HOME*/
 
-#home img
-{
-    float: right;
-}
 #home figure
 {
     float: right;
     margin-right: 20px;
     margin-left: 20px;
     font-size: 10px;
+}
+#home h4{
+    text-align: left;
+    
 }
 footer {
 
