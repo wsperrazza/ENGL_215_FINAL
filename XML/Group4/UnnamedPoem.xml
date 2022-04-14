@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text xmlns="http://www.tei-c.org/ns/1.0">
+    <body>
+        <metDecl>
+                <p>
+                    This untitled poem was written by a bot developed by Zackary Scholl, boasting an impressive rate of 80% of people believing the poem was written by a human.
+                    The main things to look at in this poem are the form and repeated phrases. The form focuses mostly on the words as opposed to the whitespace, with the words forming
+                    a lightning-like structure. I believe the reason most peope assume this poem is written by a human is because of it's use of form, however it may be seen through by 
+                    the heavy repetiion.
+                </p>
+        </metDecl>
+    <!-- Clear reading order, structure focuses on the words (not the whitespace) -->
+        <lg ana="analysis​.xml​#AIGenerated" type="poem">
+        <lg ana="analysis​.xml​#repeated">
+            <l>you</l>
+            <l>   </l>
+            <l> </l>
+            <l>  are</l>
+            <l>    </l>
+            <l>      inscribed</l>
+            <l>          in the</l>
+        </lg>
+            <l>           lines on the</l>
+            <l>     ceiling</l>
+            <l>    </l>
+        <lg ana="analysis​.xml​#repeated">
+            <l>      you</l>
+            <l>   </l>
+            <l> are</l>
+            <l>    </l>
+            <l>   inscribed in</l>
+        </lg>
+            <l>         the depths</l>
+            <l>   of</l>
+            <l>         the</l>
+            <l>    storm</l>
+        </lg>
+    <!-- "depths of the storm" and "lines on the ceiling" follow the same wording format -->
+    </body>
+</text>

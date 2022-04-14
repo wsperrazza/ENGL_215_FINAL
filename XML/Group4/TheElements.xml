@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text xmlns="http://www.tei-c.org/ns/1.0">
+    <body>
+    <!-- NOTE: I could not perfectly replicate the spacing of the original text but I got it as close as a text editior would allow -->
+    <!-- This alone would be a great testament to the humanity of the piece -->
+        <metDecl>
+                <p>
+                    The Elements by Alixandra Bamford is a concrete poem that serves as the opposite of the previous unnamed poem made by the bot.
+                    This poem is recognizable as being written by a human due to it's very intentional form, with more focus on whitespace and spacing that is not possible to directly
+                    type. In contrast to the unnamed poem this poem uses it's whitespace to create a lightning structure as opposed to the words.
+                </p>
+        </metDecl>
+        <lg ana="analysis​.xml​#HumanGenerated" type="poem">
+            <!-- past the beginning of the poem the  reading order is fairly unclear, structure also focuses heavily on the whitespace -->
+            <!-- While reading order seems to be mostly up to the reader, related chunks seem to be broken off into the columns below-->
+           <!--|           Column 1          |         Column 2         |          Column 3         |-->
+            <l>                              we name storms</l>
+            <l>                              as if overpowering them     the wind felled a tree</l>
+            <l>                                                          onto the house beside yours</l>
+            <l>                                             I hear it too</l>
+            <l>darkness</l>
+            <l>snuffs the grid                                   so close</l>
+            <l>			                                  forever making too much</l>
+            <l>                              we are both                 of silences between</l>
+            <l>                 a blank page burning                     your precise phrases</l>
+            <l>                              candles                                     space within</l>
+            <l>a good reason                                                 atoms overwhelms matter:</l>
+            <l>to give up                    parallel                           a universal condition</l>
+            <l></l>
+            <l></l>
+            <l>          writing this letter rain-sounds fill the space</l>
+            <l>      when a letter won't do between our rooms</l>
+            <l>what I want                                               distance made sound,</l>
+            <l>                              does thought traverse that  like counting the beats</l>
+            <l>           always misjudging  distance as lightning sing  until thunder</l>
+            <l>how much to say               es moisture on the air?</l>
+            <l>                   or does it                                                closeness</l>
+            <l>               travel at all?                     the word         means understanding</l>
+            <l>                                               <i>friendship</i>            our irrevokable</l> <!-- the italic word in this line is also interesting beacause it's the only one in piece -->
+            <l>                                                 your word --more real      separation</l>      <!-- this is a clear display of intention which may help display that this poem is human made as opposed to AI-->
+            <l>           powerless to stop  our hours                    yet less real</l>
+            <l>             a tree's falling melt away                    </l>
+            <l>or mine                                                    than the flesh</l>
+            <l>                                                           you once shared</l>
+            <l>          cannot protect you whatever two may</l>
+            <l>or myself               from share divided into</l>
+            <l>                 the tempest the elements</l>
+            <l>or myself                    equals zero</l>
+            <l></l>
+            <l></l>
+            <l>                             I would send you</l>
+            <l>                             a thread--Ariadne's            only logic offers</l>
+            <l>                             wick--what joins               now way through</l>
+            <l>                             the beginning                  suffering</l>
+            <l>                             to the end.</l>
+
+        </lg>
+    </body>
+</text>

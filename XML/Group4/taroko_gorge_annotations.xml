@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Taroko Gorge</title>
+                    <author>Nick Montfort</author>
+                </titleStmt>
+                <publicationStmt>
+                    <p>Annotate Taroko Gorge</p>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>Created on March 9, 2022</p>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <metDecl>
+                <p>
+                    Taroko Gorge is a computer-generated poem created in 2009 by Nick Montfort, a poet and professor of digital media at 
+                    MIT. It is a nature-themed poem named after a Taiwanese national park. It uses HTML, CSS, and JavaScript to scroll 
+                    infinitely, ceaselessly producing new lines of poetry until the web page is either closed or refreshed. Montfort 
+                    wrote the code that underpins the poem, defining what words get used in the poem, and how they should be structured 
+                    to form grammatically correct sentences. Beyond that, the computer is largely left on its own to decide how these 
+                    words are to be remixed to create poetic-sounding language. Due to the dynamic and infinite nature of the poem, I 
+                    chose to annotate the first fourteen lines of a version of the poem that was generated the first time I opened the 
+                    web page one day. My goal in these annotations was to answer our central question: Can computers write poetry? To 
+                    this end, I focused my annotations on the organization of the words, as that is the element of the poem that the 
+                    computer has the most control over. Does the organization of the words - the sentences they form, line breaks between 
+                    them, etc. feel natural, like they were made by a human? Or do they instead feel stiff and robotic, like they were 
+                    made by a computer? This is all explored in the subsequent annotations.
+                </p>
+            </metDecl>
+            <body>
+                <lg type="para"> <!-- Each line group forms a verse paragraph. According to the Poetry Foundation a verse paragraph is group of verse lines that make up a single rhetorical unit. -->
+                    <l n="1">The <w type="subject">crag</w> <span type="predicate">trails the basin</span>.</l>
+                    <l n="2"><w type="subject">Stones</w> <span type="predicate">rest</span>.</l>
+                    <l n="3"><w type="subject">Forest</w> <span type="predicate">commands the shapes</span>.</l>
+                </lg>
+                <lb/> <!-- Line break after every verse paragraph. -->
+                <lg> 
+                    <l n="4"><space quantity="2" unit="chars"></space><span type="imperative">translate the encompassing dim -</span></l> <!-- Space after every stand-alone line. The space is only 2 characters wide so it's not enough to be a normal indent. -->
+                </lg>
+                <lb/>
+                <lg type="para">
+                    <l n="5"><w type="subject">Shape</w> <span type="predicate">commands the rocks</span>.</l>
+                    <l n="6"><w type="subject">Layers</w> <span type="predicate">trail the basins</span>.</l>
+                </lg>
+                <lb/>
+                <lg>
+                    <l n="7"><space quantity="2" unit="chars"></space><span type="imperative">stamp the encompassing -</span></l> <!-- Every stand-alone line is an imperative (command) -->
+                </lg>
+                <lb/>
+                <lg>
+                    <l n="8"><w type="subject">Stones</w> <span type="predicate">command the flows</span>.</l>
+                    <l n="9"><w type="subject">Stones</w> <span type="predicate">pace the flows</span>.</l>
+                </lg>
+                <lb/>
+                <lg>
+                    <l n="10"><space quantity="2" unit="chars"></space><span type="imperative">progress through the dim -</span></l>
+                </lg>
+                <lb/>
+                <lg type="para">
+                    <l n="11"><w type="subject">Height</w> <span type="predicate">commands the stones</span>.</l>
+                    <l n="12"><w type="subject">Shapes</w> <span type="predicate">hum</span>.</l>
+                    <l n="13"><w type="subject">Shape</w> <span type="predicate">roams the stones</span>.</l>
+                </lg>
+                <lb/>
+                <lg>
+                    <l n="14"><space quantity="2" unit="chars"></space><span type="imperative">shade the encompassing rough arched -</span></l>
+                </lg>
+                <!--
+                    Overall, I'd say that this is an example of computers writing poetry on par with a human, but just barely.
+                    Some lines feel very computer-like, as they contain the bare minimum necessary to form a grammatically correct sentence, such as "Stones rest." which only contains a one-word subject and predicate.
+                    However, other lines are more complex and feel like they could be written by a human, like "The crag trails the basin."
+                    So the poem ultimately does just enough to make you feel like this could be written by a human.
+                -->
+            </body>
+        </text>
+    </TEI>
