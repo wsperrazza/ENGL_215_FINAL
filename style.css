@@ -7,38 +7,59 @@ footer{grid-area: footer;}
 
 
 /*GLOBAL rules start here */
+
+body
+{
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.45), 
+            rgba(0, 0, 0, 0.45))
+            ,url("background.jpg");
+    background-attachment: fixed;
+
+}
+img
+{
+    width: 100%;
+    border: 3px black solid;
+}
 /*Color scheme*/
 .content
 {
-    background-color: #5375E2FF;
+    background-color: white;
 }
-#logo
+#logo 
 {
+    width: 100px !important;
+    border: none  !important;
     float: right;
     padding: 10px;
 }
 h1
 {
     padding-top: 10px;
+    color: #F76902;
+}
+.h1
+{
+    background-color: white;
 }
 .h1, .content
 {
     border-style: solid;
-    border-color: #002D8AFF;
-}
-body
-{
-    background-color: #E7E5E5FF;
+    border-color: black;
 }
 /*Global basic style*/
 h2, h3, h4
 {
     text-align: left;
-    margin-left: 20px;
+    margin-left: 3%;
+    color: #F76902;
 }
 p
 {
-    margin: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
     text-align: justify;
 }
 fieldset
@@ -53,6 +74,7 @@ fieldset
 /*Parent grid container, diving content, nave, h1, and side*/
 .grid-container 
 {
+    
     display: grid;
     grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 6fr;
     grid-template-rows: auto auto auto auto;
@@ -83,8 +105,7 @@ fieldset
     background-color: silver;
     text-align: center;
     font-size: 30px;
-    border-style: solid;
-    border-color: #002D8AFF;
+    border: 3px solid black;
     border-radius: 10px;
     
 }
@@ -140,7 +161,7 @@ fieldset
     background-color: #ddd;
     color: black;
 }
-.side a.active {
+.side a:active {
 
     color: white;
 }
@@ -165,7 +186,7 @@ fieldset
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
-
+/*
 .side .drop .dropdown {
     display: none;
     position: absolute;
@@ -185,27 +206,25 @@ fieldset
 }
 
 .side .drop .dropdown a:hover {
-    background-color: #5375E2FF;
+    background-color: #5375e2;
     color: white;
 }
 
 .side .drop .dropdown a:active {
-    background-color: darkblue;
+    background-color: black;
 }
 
 .drop:hover .dropdown {
     display: block;
 }
-
+*/
 .drop:hover .ddbtn {
     /*border-radius: 10px 10px 0 0;*/
     background-color: silver !important ; 
 }
-
-
 #active
 {
-    background-color: black;
+    background-color: #F76902;
 
 }
 #active a
@@ -214,8 +233,9 @@ fieldset
 }
 #sideActive
 {
-    background-color: gray;
+    background-color: #F76902;
 }
+
 /*GLOBAL rules ENDS here ^^*/
 
 
@@ -234,6 +254,12 @@ fieldset
     text-align: left;
     
 }
+#home #main {
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+}
+
 footer {
 
     width: 100%;
@@ -258,7 +284,7 @@ footer a
     }
     p
     {
-        margin: 40px;
+        margin: 3%;
         text-align: justify;
         font-size: 35px;
     }
