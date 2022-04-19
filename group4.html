@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<link href="style.css" rel="stylesheet">
+	<link href="./style.css" rel="stylesheet">
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>HOME</title>
@@ -23,20 +23,20 @@
 			<div class="drop">
 				<button class="ddbtn">Group 1-4</button>
 				<div class="dropdown">
-					<a href="/">Group 1</a>
-					<a href="/">Group 2</a>
-					<a href="/">Group 3</a>
-					<a href="/">Group 4</a>	
+					<a href="./">Group 1</a>
+					<a href="./">Group 2</a>
+					<a href="./">Group 3</a>
+					<a href="./">Group 4</a>	
 				</div>
 			</div>
 	
 			<div class="drop">
 				<button class="ddbtn">Group 5-8</button>
 				<div class="dropdown">
-					<a href="/">Group 5</a>
-					<a href="/">Group 6</a>
-					<a href="/">Group 7</a>
-					<a href="/">Group 8</a>
+					<a href="./">Group 5</a>
+					<a href="./">Group 6</a>
+					<a href="./">Group 7</a>
+					<a href="./">Group 8</a>
 				</div>
 			</div>
 		</div>
@@ -81,7 +81,7 @@
 		</div>
 
 		<div class="h1">
-			<img id="logo" src="logo.svg" alt="logo" width="100" height="100">
+			<img id="logo" src="./logo.svg" alt="logo" width="100" height="100">
 			<h1>Group 4</h1>
 
 		</div>
@@ -105,27 +105,77 @@
 				computer has the most control over. Does the organization of the words - the sentences they form, line breaks between 
 				them, etc. feel natural, like they were made by a human? Or do they instead feel stiff and robotic, like they were 
 				made by a computer? This is all explored in the subsequent annotations.</p>
+			<p><lg type="para"> <!-- Each line group forms a verse paragraph. According to the Poetry Foundation a verse paragraph is group of verse lines that make up a single rhetorical unit. -->
+				<pre n="1">The <w type="subject">crag</w> <span type="predicate">trails the basin</span>.</pre>
+				<pre n="2"><w type="subject">Stones</w> <span type="predicate">rest</span>.</pre>
+				<pre n="3"><w type="subject">Forest</w> <span type="predicate">commands the shapes</span>.</pre>
+			</lg>
+			<br> <!-- Line break after every verse paragraph. -->
+			<lg> 
+				<pre n="4"><space quantity="2" unit="chars"></space><span type="imperative">translate the encompassing dim -</span></pre> <!-- Space after every stand-alone line. The space is only 2 characters wide so it's not enough to be a normal indent. -->
+			</lg>
+			<br>
+			<lg type="para">
+				<pre n="5"><w type="subject">Shape</w> <span type="predicate">commands the rocks</span>.</pre>
+				<pre n="6"><w type="subject">Layers</w> <span type="predicate">trail the basins</span>.</pre>
+			</lg>
+			<br>
+			<lg>
+				<pre n="7"><space quantity="2" unit="chars"></space><span type="imperative">stamp the encompassing -</span></pre> <!-- Every stand-alone line is an imperative (command) -->
+			</lg>
+			<br>
+			<lg>
+				<pre n="8"><w type="subject">Stones</w> <span type="predicate">command the flows</span>.</pre>
+				<pre n="9"><w type="subject">Stones</w> <span type="predicate">pace the flows</span>.</pre>
+			</lg>
+			<br>
+			<lg>
+				<pre n="10"><space quantity="2" unit="chars"></space><span type="imperative">progress through the dim -</span></pre>
+			</lg>
+			<br>
+			<lg type="para">
+				<pre n="11"><w type="subject">Height</w> <span type="predicate">commands the stones</span>.</pre>
+				<pre n="12"><w type="subject">Shapes</w> <span type="predicate">hum</span>.</pre>
+				<pre n="13"><w type="subject">Shape</w> <span type="predicate">roams the stones</span>.</pre>
+			</lg>
+			<br>
+			<lg>
+				<pre n="14"><space quantity="2" unit="chars"></space><span type="imperative">shade the encompassing rough arched -</span></pre>
+			</lg>
+			<!--
+				Overall, I'd say that this is an example of computers writing poetry on par with a human, but just barely.
+				Some lines feel very computer-like, as they contain the bare minimum necessary to form a grammatically correct sentence, such as "Stones rest." which only contains a one-word subject and predicate.
+				However, other lines are more complex and feel like they could be written by a human, like "The crag trails the basin."
+				So the poem ultimately does just enough to make you feel like this could be written by a human.
+			--></p>
+			<h3>Red Faces by Gertrude Stein</h3>
+
+			<p>"Red Faces" is a poem by Gertrude Stein. In the ted talk we saw, many people incorrectly identified this poem
+				as being written by a robot. Many people make this incorrect assumption because Stein's style in this poem
+				matches closely with what we expect a robot written poem to be. Such aspects include some poor grammar and
+				incomplete sentences which we assume are relics of the robot's poor work but are actually deliberate choices
+				of Stein.</p>
 			<p><pre>Red flags the reason for pretty flags.</pre>
-				<pre>And ribbons.</pre><!-- "And ribbons" is an incomplete sentence. If it has been suggested to the reader that this
+				<pre>And ribbons.</pre><!-->"And ribbons" is an incomplete sentence. If it has been suggested to the reader that this
 				poem may have been written by a robot, the reader might mistakenly take this grammatically incorrect sentence as a
 				sign that it was written by a robot</-->
 				<pre>Ribbons of flags</pre>
 				<pre>And wearing material</pre>
 				<pre>Reason for wearing material.</pre>
-				<!--Stein intends to repeat the concept of the flags and uses "ribbons" as anaphora for flags. However, a reader
+				<!-->Stein intends to repeat the concept of the flags and uses "ribbons" as anaphora for flags. However, a reader
 				who is looking for signs that a poem may have been written by a robot may miss this and simply regard the lines as
 				a sentence that makes no logical sense. This is further exasperated by the fact that the sentence has no real rhyme
 				scheme or structure. In our minds we assume that this lack of structure might come from a robot's inability to
 				understand such structure. </!-->
 				<pre>Give pleasure.</pre>
-				<!--Another incomplete sentence, this continues to suggest to the reader that the hand of the author is not human.
+				<!-->Another incomplete sentence, this continues to suggest to the reader that the hand of the author is not human.
 				</-->
 				<pre>Can you give me the regions.</pre>
 				<pre>The regions and the land.</pre>
 				<pre>The regions and wheels.</pre>
 				<pre>All wheels are perfect.</pre>
 				<pre>Enthusiasm.</pre>
-				<!--These last few lines are much closer to what we expect human poetry to sound like. They have real structure and
+				<!-->These last few lines are much closer to what we expect human poetry to sound like. They have real structure and
 				clearly show us the message of the poem, people's enthusiasm about their own national flags. The trouble is that
 				these lines occur at the end of the poem rather than the beginning. Humans rarely change their mind about anything
 				once they formed their opinion on a subject. Therefore, since the reader has already formed the theory that the poem
@@ -141,9 +191,9 @@
 				of Stein.</p>
 			<p></p>
 
-			<h3>The Elements by Alixandra Bamford</h3>
+			<h3>The Elements by Alexandra Bamford</h3>
 
-			<p>The Elements by Alixandra Bamford is a concrete poem that serves as the opposite of the previous unnamed poem made by the bot.
+			<p>The Elements by Alexandra Bamford is a concrete poem that serves as the opposite of the previous unnamed poem made by the bot.
 				This poem is recognizable as being written by a human due to it's very intentional form, with more focus on whitespace and spacing that is not possible to directly
 				type. In contrast to the unnamed poem this poem uses it's whitespace to create a lightning structure as opposed to the words.</p>
                 <img src="./Images/Group4/TheElements.jpg" alt="TheElements">
@@ -224,7 +274,7 @@
 			<p>Comments: Clear reading order, structure focuses on the words (not the whitespace). "depths of the storm" and "lines on the ceiling" follow the same wording format 		</p>
 		<footer>
 			ENGL Academic project <br>
-			<a href="\">Contacts</a>
+			<a href="./">Contacts</a>
 		</footer>
 	</div>
 </Body>
