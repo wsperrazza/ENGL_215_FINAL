@@ -272,14 +272,12 @@ footer a
     border-style: solid;
 }
 
-#group4 #xml
+#group4 img
 {
-    border: 2px solid black;
-    overflow:auto;
-    width: 99%;
+    border: none;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
-    text-align: left;
 }
 
 @media only screen and (max-width: 1080px) {
