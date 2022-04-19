@@ -236,6 +236,18 @@ fieldset
     background-color: #F76902;
 }
 
+footer {
+
+    width: 100%;
+    color: darkgray;
+    text-align: center;
+    font-size: 20px
+}
+footer a
+{
+    text-decoration: none;
+}
+
 /*GLOBAL rules ENDS here ^^*/
 
 
@@ -260,16 +272,14 @@ fieldset
     border-style: solid;
 }
 
-footer {
-
-    width: 100%;
-    color: darkgray;
-    text-align: center;
-    font-size: 20px
-}
-footer a
+#group4 #xml
 {
-    text-decoration: none;
+    border: 2px solid black;
+    overflow:auto;
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
 }
 
 @media only screen and (max-width: 1080px) {
