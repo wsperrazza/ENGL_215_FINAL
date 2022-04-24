@@ -97,7 +97,7 @@ fieldset
 .nav {
     display: grid;
     align-content: space-evenly;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
     grid-gap: 20px;
     margin: 20px;
 }
